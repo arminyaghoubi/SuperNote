@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SuperNote.DataAccess\SuperNote.DataAccess.csproj" />
+    <ProjectReference Include="..\SuperNote.Domain\SuperNote.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
