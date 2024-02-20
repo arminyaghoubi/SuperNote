@@ -1,6 +1,15 @@
+using SuperNote.Domain;
+using SuperNote.Application;
+using SuperNote.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services
+    .AddDomainServices()
+    .AddApplicationServices()
+    .AddDataAccessServices();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
