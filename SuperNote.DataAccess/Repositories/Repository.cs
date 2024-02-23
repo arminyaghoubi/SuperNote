@@ -8,7 +8,7 @@ namespace SuperNote.DataAccess.Repositories;
 public class Repository<TEntity> : IRepository<TEntity>
     where TEntity : AggregateRoot
 {
-    private readonly SuperNoteContext _context;
+    protected readonly SuperNoteContext _context;
 
     public Repository(SuperNoteContext context) => _context = context;
 
