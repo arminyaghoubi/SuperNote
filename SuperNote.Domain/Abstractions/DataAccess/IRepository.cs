@@ -7,6 +7,6 @@ public interface IRepository<TEntity>
 {
     Task<IReadOnlyList<TEntity>> GetEntitiesAsync();
     Task AddAsync(TEntity entity);
-    Task UpdateAsync(TEntity entity);
-    Task DeleteAsync(TEntity entity);
+    void UpdateAsync(TEntity entity);
+    void DeleteAsync(TEntity entity);
 }
