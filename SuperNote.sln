@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperNote.DataAccess", "SuperNote.DataAccess\SuperNote.DataAccess.csproj", "{73219B0F-DB54-4AE0-AB47-24B64F308E70}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "supernote.frontend", "SuperNote.Frontend\supernote.frontend.esproj", "{8F83993A-F696-4543-879C-AD9E927C6A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{73219B0F-DB54-4AE0-AB47-24B64F308E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73219B0F-DB54-4AE0-AB47-24B64F308E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73219B0F-DB54-4AE0-AB47-24B64F308E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F83993A-F696-4543-879C-AD9E927C6A5D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,7 @@ Global
 		{FE3B5778-949A-4735-AEB8-11CAA01366AA} = {76C06577-5B64-464C-A09E-F3404C50B177}
 		{D9254101-D8F7-4742-B1D4-DECDC0CE4621} = {76C06577-5B64-464C-A09E-F3404C50B177}
 		{73219B0F-DB54-4AE0-AB47-24B64F308E70} = {D9254101-D8F7-4742-B1D4-DECDC0CE4621}
+		{8F83993A-F696-4543-879C-AD9E927C6A5D} = {76C06577-5B64-464C-A09E-F3404C50B177}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6C566AA-1C21-4EEB-B5B0-A8A27B8FCFE0}
