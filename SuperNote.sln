@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76C06577-5B6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C1B7CEDC-EB9E-4DEC-8064-A894859AA186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Domain", "SuperNote.Domain\SuperNote.Domain.csproj", "{ABF1DF29-835A-4FF5-B1C4-2CA65248C4BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperNote.Domain", "SuperNote.Domain\SuperNote.Domain.csproj", "{ABF1DF29-835A-4FF5-B1C4-2CA65248C4BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Application", "SuperNote.Application\SuperNote.Application.csproj", "{5F666FB9-9D1D-4615-BA94-3D429DD52D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperNote.Application", "SuperNote.Application\SuperNote.Application.csproj", "{5F666FB9-9D1D-4615-BA94-3D429DD52D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.WebApi", "SuperNote.WebApi\SuperNote.WebApi.csproj", "{FE3B5778-949A-4735-AEB8-11CAA01366AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperNote.WebApi", "SuperNote.WebApi\SuperNote.WebApi.csproj", "{FE3B5778-949A-4735-AEB8-11CAA01366AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D9254101-D8F7-4742-B1D4-DECDC0CE4621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.DataAccess", "SuperNote.DataAccess\SuperNote.DataAccess.csproj", "{73219B0F-DB54-4AE0-AB47-24B64F308E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperNote.DataAccess", "SuperNote.DataAccess\SuperNote.DataAccess.csproj", "{73219B0F-DB54-4AE0-AB47-24B64F308E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
