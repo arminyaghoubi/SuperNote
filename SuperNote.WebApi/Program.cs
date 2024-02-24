@@ -11,7 +11,7 @@ builder.Services.AddFastEndpoints();
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblies(typeof(Program).Assembly, typeof(ApplicationServices).Assembly));
 builder.Services.SwaggerDocument(options =>
 {
-    options.ShortSchemaNames = false;
+    options.ShortSchemaNames = true;
 });
 builder.Services.AddSingleton(TimeProvider.System);
 
