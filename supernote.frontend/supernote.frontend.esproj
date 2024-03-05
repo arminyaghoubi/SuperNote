@@ -8,4 +8,9 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\components\NoteDetailsDialog\" />
+    <Folder Include="src\components\NoteList\" />
+    <Folder Include="src\services\" />
+  </ItemGroup>
 </Project>

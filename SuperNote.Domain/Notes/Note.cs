@@ -6,7 +6,7 @@ public class Note : AggregateRoot
 {
     public NoteId Id { get; }
     public NoteText Text { get; }
-    public DateTime LastModified { get; }
+    public DateTime LastModified { get; private set; }
 
     /// <summary>
     /// Required by Entity Framework

@@ -1,4 +1,5 @@
-﻿using Optional;
+﻿using Microsoft.EntityFrameworkCore;
+using Optional;
 using SuperNote.DataAccess.Contexts;
 using SuperNote.Domain.Notes;
 
@@ -10,6 +11,24 @@ public class NoteRepository : Repository<Note>, INoteRepository
         : base(context)
     {
     }
+
+    public async Task<IReadOnlyList<Note>> GetAllAsync(
+        int pageNumber,
+        int pageSize)
+        => await _context
+                    .Notes
+                    .AsNoTracking()
+                    .OrderByDescending(n=>n.LastModified)
+                    .Skip((pageNumber - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+
+
+    public async Task<int> GetTotalCountAsync()
+        => await _context
+                    .Notes
+                    .AsNoTracking()
+                    .CountAsync();
 
     public async Task<Option<Note>> GetByIdAsync(NoteId id)
     {
